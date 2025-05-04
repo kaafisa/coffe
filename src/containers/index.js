@@ -1,0 +1,8 @@
+export {default as Navone} from './navone/Navone'
+export {default as Catagories} from './catagories/Catagories'
+export {default as Navbar} from './navbar/Navbar'
+export {default as Blogs} from './blogs/Blogs'
+export {default as Header} from './header/Header'
+export {default as Offers} from './offers/Offers'
+export {default as Products} from './products/Products'
+export {default as Gallery} from './gallery/Gallery'

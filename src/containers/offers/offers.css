@@ -1,0 +1,72 @@
+.coffee__offers{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: space-around;
+}
+
+.coffee__offers-card{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border: 5px solid #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+    margin: 0 0.5rem;
+    padding: 0.5rem 0;
+}
+.coffee__offers-card .icon{
+    font-size: 28px;
+    color: var(--color-text);
+}
+.coffee__offers-card_content{
+    margin-left: 1rem;
+}
+.coffee__offers-card_content h3{
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.04em;
+    color: #202020;
+}
+.coffee__offers-card_content p{
+    font-family: var(--font-family);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align:left;
+}
+@media screen and (max-width:1050px){
+    .coffee__offers-card{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:790px){
+    .coffee__offers{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       grid-gap: 1rem;
+    }
+    
+    .coffee__offers-card{
+        flex-direction: row;
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:550px){
+    .coffee__offers{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .coffee__offers-card_content h3{
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .coffee__offers-card .icon{
+        font-size: 26px;
+    }
+}
