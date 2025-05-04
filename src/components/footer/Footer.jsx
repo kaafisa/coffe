@@ -8,7 +8,7 @@ const Footer = () => {
        <div className='coffee__footer-links_info'>
             <h4>Contact info</h4>
             <p><span>Address:</span> km4,Mogadishu,Somalia</p>
-            <p><span>Phone:</span> +252 616899751</p>
+            <p><span>Phone:</span> +252 000000</p>
             <p><span>fax:</span> 012-345-678</p>
             <p><span>Email:</span>mina@support.com</p>
             <div className='media'>
